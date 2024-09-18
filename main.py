@@ -10,8 +10,8 @@ app = Flask(__name__)
 CORS(app)  # Allow external requests
 
 # Configure your Twilio Account SID and Auth Token
-account_sid = 'AC1a3ae1615117b5ae521d7be9436d1728'  # Replace with your credentials
-auth_token = 'e79a398cd6275972510bdc5896d18ea4'  # Replace with your credentials
+account_sid = 'TWILIO_ACCOUNT_SID'  # Replace with your credentials
+auth_token = 'TWILIO_AUTH_TOKEN'  # Replace with your credentials
 client = Client(account_sid, auth_token)
 
 # Function for the bot to handle WhatsApp requests
